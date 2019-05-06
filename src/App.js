@@ -1,26 +1,56 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import './App.css'
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import Services from './components/Services';
+import Mission from './components/Mission';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import CaseStudies from './components/caseStudies';
+import SideDrawer from './components/sideDrawer.js'
+import Backdrop from './components/backdrop.js';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+  state = {
+    sideDrawerOpen : false,
+  }
+
+  drawerToggleClickHandler = () => {
+    this.setState(prevState => {
+      return { sideDrawerOpen: !prevState.sideDrawerOpen }
+    })
+  }
+
+  backdropClickHandler = () => {
+    this.setState({ sideDrawerOpen: false })
+  }
+
+  sideDrawerElementClickHandler = () => {
+    this.setState({ sideDrawerOpen: false})
+    console.log("sidedrawerelementclick")
+  }
+
+  render() {   
+    let backdrop
+
+    if (this.state.sideDrawerOpen) {
+      backdrop = <Backdrop click={this.backdropClickHandler} />
+    } 
+    return (
+      <div className="App">  
+        <Header/> 
+        <Navbar drawerClickHandler = {this.drawerToggleClickHandler}/>
+        <SideDrawer show={this.state.sideDrawerOpen} elementClickHandler = {this.sideDrawerElementClickHandler}/>
+        {backdrop}      
+        <Mission/>
+        <Services/>
+        <CaseStudies/>
+        <Contact/>
+        <Footer/>
+      </div>
+    );
+  }
 }
 
 export default App;
