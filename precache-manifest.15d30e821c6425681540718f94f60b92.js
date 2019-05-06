@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0592229525e5a021d69b44adfbbd79b",
+    "revision": "6fb5a9468331020741a5e9cefdce8570",
     "url": "/theAmazingCo/index.html"
   },
   {
-    "revision": "2ebf41d6c03d50e1929c",
+    "revision": "0a729013c7432422164f",
     "url": "/theAmazingCo/static/css/main.f5f0b5c0.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/theAmazingCo/static/js/2.9da904c1.chunk.js"
   },
   {
-    "revision": "2ebf41d6c03d50e1929c",
-    "url": "/theAmazingCo/static/js/main.e82b774f.chunk.js"
+    "revision": "0a729013c7432422164f",
+    "url": "/theAmazingCo/static/js/main.f8ad8c9f.chunk.js"
   },
   {
     "revision": "e4623a9e2b061cad23a7",

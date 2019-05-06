@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/theAmazingCo/static/css/main.f5f0b5c0.chunk.css",
-    "main.js": "/theAmazingCo/static/js/main.e82b774f.chunk.js",
-    "main.js.map": "/theAmazingCo/static/js/main.e82b774f.chunk.js.map",
+    "main.js": "/theAmazingCo/static/js/main.f8ad8c9f.chunk.js",
+    "main.js.map": "/theAmazingCo/static/js/main.f8ad8c9f.chunk.js.map",
     "runtime~main.js": "/theAmazingCo/static/js/runtime~main.720662bf.js",
     "runtime~main.js.map": "/theAmazingCo/static/js/runtime~main.720662bf.js.map",
     "static/js/2.9da904c1.chunk.js": "/theAmazingCo/static/js/2.9da904c1.chunk.js",
     "static/js/2.9da904c1.chunk.js.map": "/theAmazingCo/static/js/2.9da904c1.chunk.js.map",
     "index.html": "/theAmazingCo/index.html",
-    "precache-manifest.203ca8ac355d30ffe15ae8ad6a0593cc.js": "/theAmazingCo/precache-manifest.203ca8ac355d30ffe15ae8ad6a0593cc.js",
+    "precache-manifest.15d30e821c6425681540718f94f60b92.js": "/theAmazingCo/precache-manifest.15d30e821c6425681540718f94f60b92.js",
     "service-worker.js": "/theAmazingCo/service-worker.js",
     "static/css/main.f5f0b5c0.chunk.css.map": "/theAmazingCo/static/css/main.f5f0b5c0.chunk.css.map",
     "static/media/logo.svg": "/theAmazingCo/static/media/logo.5d5d9eef.svg"
